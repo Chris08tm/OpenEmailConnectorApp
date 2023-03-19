@@ -6,15 +6,9 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class OpenEmailConnectorApplication extends SpringBootServletInitializer {
-
+public class OpenEmailConnectorApplication{
     public static void main(String[] args) {
         SpringApplication.run(OpenEmailConnectorApplication.class, args);
-    }
-
-    @Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return builder.sources(OpenEmailConnectorApplication.class);
     }
 
 }

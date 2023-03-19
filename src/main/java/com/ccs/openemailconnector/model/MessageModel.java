@@ -11,6 +11,8 @@ import lombok.Setter;
 @NoArgsConstructor
 public class MessageModel {
     private String from;
+    private String name;
+    private String phone;
     private String subject;
     private String body;
 }
